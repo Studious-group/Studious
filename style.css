@@ -2,7 +2,7 @@
     background-color: green;
 }
 .card2 {
-    background-color: blue;
+    background-color: rgb(64, 64, 248);
 }
 .card3 {
     background-color: yellow;
@@ -18,5 +18,15 @@
 
 .english-card-container {
     background-color: rgb(255, 125, 125);
+    border: 2px
+}
+
+.math-card-container {
+    background-color: rgb(125, 200, 255);
+    border: 2px
+}
+
+.science-card-container {
+    background-color: rgb(125, 255, 125);
     border: 2px
 }
