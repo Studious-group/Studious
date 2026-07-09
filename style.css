@@ -10,3 +10,13 @@
 .card4 {
     background-color: red;
 }
+
+.history-card-container {
+    background-color: rgb(255, 255, 125);
+    border: 2px
+}
+
+.english-card-container {
+    background-color: rgb(255, 125, 125);
+    border: 2px
+}
