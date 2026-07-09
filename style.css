@@ -64,3 +64,17 @@ h1 {
 .card4 {
     background-color: red;
 }
+
+.history-card-container {
+    background-color: rgb(255, 255, 125);
+    border: 2px solid #333;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+.english-card-container {
+    background-color: rgb(255, 125, 125);
+    border: 2px solid #333;
+    padding: 1rem;
+    border-radius: 12px;
+}
