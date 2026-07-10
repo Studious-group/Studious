@@ -11,22 +11,23 @@
     background-color: red;
 }
 
-.history-card-container {
+.history-cardcontainer {
     background-color: rgb(255, 255, 125);
     border: 2px
 }
 
-.english-card-container {
+.english-cardcontainer {
     background-color: rgb(255, 125, 125);
     border: 2px
 }
 
-.math-card-container {
+.math-cardcontainer,
+.math-body {
     background-color: rgb(125, 200, 255);
     border: 2px
 }
 
-.science-card-container {
+.science-cardcontainer {
     background-color: rgb(125, 255, 125);
     border: 2px
 }
