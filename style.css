@@ -74,5 +74,54 @@ h1 {
 
 .english-cardcontainer {
     background-color: rgb(255, 125, 125);
-    border: 2px
+    border: 2px solid #333;
+    padding: 1rem;
+    border-radius: 12px;
+}
+.quiz-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.correct {
+    background: #28a745 !important;
+}
+
+.wrong {
+    background: #dc3545 !important;
+}
+
+#nextBtn {
+    margin-top: 20px;
+    background: #6c757d;
+}
+
+#nextBtn:hover {
+    background: #555;
+}
+
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 18px;
 }
