@@ -1,55 +1,34 @@
 const questions = [
     {
-        question: "What is 415 + 753?",
-        choices: ["1168", "1268", "1368", "1468"],
-        answer: "1168"
+        question: "What word is a synonym for 'happy'?",
+        choices: ["mad", "sad", "joyful", "angry"],
+        answer: "joyful"
     },
     {
-        question: "What is 927 - 418?",
-        choices: ["509", "511", "409", "539"],
-        answer: "509"
+        question: "What does shocked mean?",
+        choices: ["surprised", "angry", "happy", "sad"],
+        answer: "surprised"
     },
     {
-        question: "What is 619 + 97?",
-        choices: ["716", "613", "714", "726"],
-        answer: "716"
+        question: "How many vowels are in the word 'education'?",
+        choices: ["7", "6", "8", "5"],
+        answer: "5"
     },
     {
-        question: "What is 114 - 98?",
-        choices: ["25", "16", "15", "22"],
-        answer: "16"
+        question: "How many consonants are in the word 'technology'?",
+        choices: ["11", "7", "8", "3"],
+        answer: "7"
     },
     {
-        question: "What is 745 + 356?",
-        choices: ["1104", "1102", "1101", "1201"],
-        answer: "1101"
+        question: "How many syllables are in the word 'balloon'?",
+        choices: ["3", "2", "1", "0"],
+        answer: "2"
     },
     {
-        question: "What is 845 - 598?",
-        choices: ["249", "251", "242", "247"],
-        answer: "247"
-    },
-    {
-        question: "What is 522 + 809?",
-        choices: ["1232", "1331", "1351", "1111"],
-        answer: "1331"
-    },
-    {
-        question: "What is 998 - 749?",
-        choices: ["249", "302", "252", "257"],
-        answer: "249"
-    },
-    {
-        question: "What is 463 + 328?",
-        choices: ["801", "781", "791", "761"],
-        answer: "791"
-    },
-    {
-        question: "What is 1023 - 587?",
-        choices: ["416", "426", "446", "436"],
-        answer: "436"
+        question: "What is an antonym for 'hot'?",
+        choices: ["scorching", "warm", "boiling", "cold"],
+        answer: "cold"
     }
-    
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");

@@ -28,28 +28,7 @@ const questions = [
         question: "What is 845 - 598?",
         choices: ["249", "251", "242", "247"],
         answer: "247"
-    },
-    {
-        question: "What is 522 + 809?",
-        choices: ["1232", "1331", "1351", "1111"],
-        answer: "1331"
-    },
-    {
-        question: "What is 998 - 749?",
-        choices: ["249", "302", "252", "257"],
-        answer: "249"
-    },
-    {
-        question: "What is 463 + 328?",
-        choices: ["801", "781", "791", "761"],
-        answer: "791"
-    },
-    {
-        question: "What is 1023 - 587?",
-        choices: ["416", "426", "446", "436"],
-        answer: "436"
     }
-    
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
