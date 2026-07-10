@@ -1,0 +1,13 @@
+h4 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.Levelcard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
