@@ -1,16 +1,35 @@
-
-let questions = Mathlevel2;
-
-function setLevel(level) {
-    if (level === 2) {
-        questions = Mathlevel2;
-    } else if (level === 3) {
-        questions = Mathlevel3;
+const questions = [
+    {
+        question: "What is 4 x 8?",
+        choices: ["40", "36", "32", "44"],
+        answer: "32"
+    },
+    {
+        question: "What is 45 / 5?",
+        choices: ["8", "9", "10", "11"],
+        answer: "9"
+    },
+    {
+        question: "What is 14 x 4?",
+        choices: ["56", "52", "60", "53"],
+        answer: "56"
+    },
+    {
+        question: "What is 28 / 4?",
+        choices: ["10", "8", "7", "5"],
+        answer: "7"
+    },
+    {
+        question: "What is 24 x 2?",
+        choices: ["46", "52", "50", "48"],
+        answer: "48"
+    },
+    {
+        question: "What is 10 x 6?",
+        choices: ["50", "60", "64", "58"],
+        answer: "60"
     }
-
-    loadRandomQuestion();
-}
-
+];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
 const resultElement = document.getElementById("result");

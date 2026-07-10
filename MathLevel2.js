@@ -1,16 +1,35 @@
-
-let questions = Mathlevel2;
-
-function setLevel(level) {
-    if (level === 2) {
-        questions = Mathlevel2;
-    } else if (level === 3) {
-        questions = Mathlevel3;
+const questions = [
+    {
+        question: "What is 415 + 753?",
+        choices: ["1168", "1268", "1368", "1468"],
+        answer: "1168"
+    },
+    {
+        question: "What is 927 - 418?",
+        choices: ["509", "511", "409", "539"],
+        answer: "509"
+    },
+    {
+        question: "What is 619 + 97?",
+        choices: ["716", "613", "714", "726"],
+        answer: "716"
+    },
+    {
+        question: "What is 114 - 98?",
+        choices: ["25", "16", "15", "22"],
+        answer: "16"
+    },
+    {
+        question: "What is 745 + 356?",
+        choices: ["1104", "1102", "1101", "1201"],
+        answer: "1101"
+    },
+    {
+        question: "What is 845 - 598?",
+        choices: ["249", "251", "242", "247"],
+        answer: "247"
     }
-
-    loadRandomQuestion();
-}
-
+];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
 const resultElement = document.getElementById("result");
