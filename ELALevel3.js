@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "What is 4 x 8?",
-        choices: ["40", "36", "32", "44"],
-        answer: "32"
+        question: "What is an antonym for the word 'irked'?",
+        choices: ["annoyed", "pleased", "disappointed", "angry"],
+        answer: "pleased"
     },
     {
-        question: "What is 45 / 5?",
-        choices: ["8", "9", "10", "11"],
-        answer: "9"
+        question: "Which word is an adjective?",
+        choices: ["move", "jump", "big", "run"],
+        answer: "big"
     },
     {
-        question: "What is 14 x 4?",
-        choices: ["56", "52", "60", "53"],
-        answer: "56"
+        question: "Which word is a verb?",
+        choices: ["happy", "grab", "small", "up"],
+        answer: "grab"
     },
     {
-        question: "What is 28 / 4?",
-        choices: ["10", "8", "7", "5"],
-        answer: "7"
+        question: "Which word is a noun?",
+        choices: ["home", "amazing", "green", "hard"],
+        answer: "home"
     },
     {
-        question: "What is 24 x 2?",
-        choices: ["46", "52", "50", "48"],
-        answer: "48"
+        question: "Which word is an adverb?",
+        choices: ["small", "run", "blue", "high"],
+        answer: "high"
     },
     {
-        question: "What is 10 x 6?",
-        choices: ["50", "60", "64", "58"],
-        answer: "60"
+        question: "What prefix means to do again?",
+        choices: ["re-", "un-", "dis-", "over-"],
+        answer: "re-"
     }
 ];
 const questionElement = document.getElementById("question");

@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "What is 4 x 8?",
-        choices: ["40", "36", "32", "44"],
-        answer: "32"
+        question: "What word is a synonym for 'happy'?",
+        choices: ["mad", "sad", "joyful", "angry"],
+        answer: "joyful"
     },
     {
-        question: "What is 45 / 5?",
-        choices: ["8", "9", "10", "11"],
-        answer: "9"
+        question: "What does shocked mean?",
+        choices: ["surprised", "angry", "happy", "sad"],
+        answer: "surprised"
     },
     {
-        question: "What is 14 x 4?",
-        choices: ["56", "52", "60", "53"],
-        answer: "56"
+        question: "How many vowels are in the word 'education'?",
+        choices: ["7", "6", "8", "5"],
+        answer: "5"
     },
     {
-        question: "What is 28 / 4?",
-        choices: ["10", "8", "7", "5"],
+        question: "How many consonants are in the word 'technology'?",
+        choices: ["11", "7", "8", "3"],
         answer: "7"
     },
     {
-        question: "What is 24 x 2?",
-        choices: ["46", "52", "50", "48"],
-        answer: "48"
+        question: "How many syllables are in the word 'balloon'?",
+        choices: ["3", "2", "1", "0"],
+        answer: "2"
     },
     {
-        question: "What is 10 x 6?",
-        choices: ["50", "60", "64", "58"],
-        answer: "60"
+        question: "What is an antonym for 'hot'?",
+        choices: ["scorching", "warm", "boiling", "cold"],
+        answer: "cold"
     }
 ];
 const questionElement = document.getElementById("question");

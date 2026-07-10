@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "What is 4 x 8?",
-        choices: ["40", "36", "32", "44"],
-        answer: "32"
+        question: "What word is a synonym for 'happy'?",
+        choices: ["mad", "sad", "joyful", "angry"],
+        answer: "joyful"
     },
     {
-        question: "What is 45 / 5?",
-        choices: ["8", "9", "10", "11"],
-        answer: "9"
+        question: "What is 927 - 418?",
+        choices: ["509", "511", "409", "539"],
+        answer: "509"
     },
     {
-        question: "What is 14 x 4?",
-        choices: ["56", "52", "60", "53"],
-        answer: "56"
+        question: "What is 619 + 97?",
+        choices: ["716", "613", "714", "726"],
+        answer: "716"
     },
     {
-        question: "What is 28 / 4?",
-        choices: ["10", "8", "7", "5"],
-        answer: "7"
+        question: "What is 114 - 98?",
+        choices: ["25", "16", "15", "22"],
+        answer: "16"
     },
     {
-        question: "What is 24 x 2?",
-        choices: ["46", "52", "50", "48"],
-        answer: "48"
+        question: "What is 745 + 356?",
+        choices: ["1104", "1102", "1101", "1201"],
+        answer: "1101"
     },
     {
-        question: "What is 10 x 6?",
-        choices: ["50", "60", "64", "58"],
-        answer: "60"
+        question: "What is 845 - 598?",
+        choices: ["249", "251", "242", "247"],
+        answer: "247"
     }
 ];
 const questionElement = document.getElementById("question");

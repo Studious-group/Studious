@@ -1,33 +1,33 @@
 const questions = [
     {
-        question: "What is 4 x 8?",
-        choices: ["40", "36", "32", "44"],
+        question: "What is the prefix of the word 'unhappy'?",
+        choices: ["un", "happy", "unhappy", "none"],
+        answer: "un"
+    },
+    {
+        question: "what is the plural form of 'child'?",
+        choices: ["childs", "children", "childes", "childern"],
+        answer: "children"
+    },
+    {
+        question: "What is read in past tense?",
+        choices: ["readed", "readen", "read", "none"],
+        answer: "read"
+    },
+    {
+        question: "What is an antonym for 'less'?",
+        choices: ["lesser", "more", "little", "fewer"],
+        answer: "more"
+    },
+    {
+        question: "how many letters are in 2,354?",
+        choices: ["34", "33", "32", "30"],
         answer: "32"
     },
     {
-        question: "What is 45 / 5?",
-        choices: ["8", "9", "10", "11"],
-        answer: "9"
-    },
-    {
-        question: "What is 14 x 4?",
-        choices: ["56", "52", "60", "53"],
-        answer: "56"
-    },
-    {
-        question: "What is 28 / 4?",
-        choices: ["10", "8", "7", "5"],
-        answer: "7"
-    },
-    {
-        question: "What is 24 x 2?",
-        choices: ["46", "52", "50", "48"],
-        answer: "48"
-    },
-    {
-        question: "What is 10 x 6?",
-        choices: ["50", "60", "64", "58"],
-        answer: "60"
+        question: "what is the suffix of the word 'ungreatful'?",
+        choices: ["ful", "great", "less", "un"],
+        answer: "ful"
     }
 ];
 const questionElement = document.getElementById("question");
