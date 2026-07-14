@@ -15,9 +15,9 @@ const questions = [
         answer: "Mexico"
     },
     {
-        question: "What is 114 - 98?",
-        choices: ["25", "16", "15", "22"],
-        answer: "16"
+        question: "What is the capital of the United States?",
+        choices: ["New York", "Los Angeles", "Washington, D.C.", "Chicago"],
+        answer: "Washington, D.C."
     },
     {
         question: "What is 745 + 356?",

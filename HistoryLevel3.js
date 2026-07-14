@@ -20,9 +20,9 @@ const questions = [
         answer: "1939"
     },
     {
-        question: "Who was the first person to sail to America?",
-        choices: ["Abraham Lincoln", "George Washington", "Christopher Columbus", "Michael Jackson"],
-        answer: "Christopher Columbus"
+        question: "When was the declaration of independence signed?",
+        choices: ["1776", "1789", "1812", "1865"],
+        answer: "1776"
     },
     {
         question: "What was the 50th state to join the United States?",
