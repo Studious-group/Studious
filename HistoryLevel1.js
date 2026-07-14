@@ -1,18 +1,18 @@
 const questions = [
     {
-        question: "What is 415 + 753?",
-        choices: ["1168", "1268", "1368", "1468"],
-        answer: "1168"
+        question: "Who was the first President of the United States?",
+        choices: ["George Washington", "John Adams", "Thomas Jefferson", "James Madison"],
+        answer: "George Washington"
     },
     {
-        question: "What is 927 - 418?",
-        choices: ["509", "511", "409", "539"],
-        answer: "509"
+        question: "How many U.S. states are there?",
+        choices: ["52", "51", "49", "50"],
+        answer: "50"
     },
     {
-        question: "What is 619 + 97?",
-        choices: ["716", "613", "714", "726"],
-        answer: "716"
+        question: "Which Country is below the United States?",
+        choices: ["Canada", "Mexico", "Russia", "China"],
+        answer: "Mexico"
     },
     {
         question: "What is 114 - 98?",

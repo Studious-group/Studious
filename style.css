@@ -145,7 +145,7 @@ h1 {
     border: 3px solid black;
 }
 
-.history-card-container {
+.history-cardcontainer {
     background-color: rgb(255, 255, 125);
     border: 2px solid #333;
     padding: 1rem;
@@ -153,7 +153,7 @@ h1 {
     text-align: center;
 }
 
-.english-card-container {
+.english-cardcontainer {
     background-color: rgb(255, 125, 125);
     border: 2px solid #333;
     padding: 1rem;

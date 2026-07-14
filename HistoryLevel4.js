@@ -5,9 +5,9 @@ const questions = [
         answer: "joyful"
     },
     {
-        question: "What is 927 - 418?",
-        choices: ["509", "511", "409", "539"],
-        answer: "509"
+        question: "In which U.S. state did the Gold Rush of 1849 occur?",
+        choices: ["California", "New York", "Texas", "Indiana"],
+        answer: "California"
     },
     {
         question: "What is 619 + 97?",
