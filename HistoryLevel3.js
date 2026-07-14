@@ -20,16 +20,20 @@ const questions = [
         answer: "1939"
     },
     {
-        question: "Who was the first person to sail to America?",
-        choices: ["Abraham Lincoln", "George Washington", "Christopher Columbus", "Michael Jackson"],
-        answer: "Christopher Columbus"
+        question: "When was the declaration of independence signed?",
+        choices: ["1776", "1789", "1812", "1865"],
+        answer: "1776"
     },
     {
         question: "What was the 50th state to join the United States?",
         choices: ["Alaska", "Hawaii", "Washington", "Maine"],
         answer: "Hawaii"
     },
-
+    {
+        question: "What event happened in 1969 that was a major achievement in space exploration?",
+        choices: ["The first moon landing", "The Berlin Wall fell", "The first computer was invented", "The first airplane flew"],
+        answer: "The first moon landing"
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");

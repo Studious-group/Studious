@@ -15,20 +15,25 @@ const questions = [
         answer: "Mexico"
     },
     {
-        question: "What is 114 - 98?",
-        choices: ["25", "16", "15", "22"],
-        answer: "16"
+        question: "What is the capital of the United States?",
+        choices: ["New York", "Los Angeles", "Washington, D.C.", "Chicago"],
+        answer: "Washington, D.C."
     },
     {
-        question: "What is 745 + 356?",
-        choices: ["1104", "1102", "1101", "1201"],
-        answer: "1101"
+        question: "What was the name of the ship that brought the Pilgrims to America in 1620?",
+        choices: ["Mayflower", "Santa Maria", "Endeavour", "Titanic"],
+        answer: "Mayflower"
     },
     {
-        question: "What is 845 - 598?",
-        choices: ["249", "251", "242", "247"],
-        answer: "247"
-    }
+        question: "Which war was fought between the North and South in the United States?",
+        choices: ["World War I", "The Civil War", "The Revolutionary War", "The Korean War"],
+        answer: "The Civil War"
+    },
+    {
+        question: "Who was the first person to walk on the Moon?",
+        choices: ["Neil Armstrong", "Buzz Aldrin", "John Glenn", "Yuri Gagarin"],
+        answer: "Neil Armstrong"
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");

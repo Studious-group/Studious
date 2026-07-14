@@ -15,14 +15,14 @@ const questions = [
         answer: "7"
     },
     {
-        question: "How many countries are there in the world?",
-        choices: ["100", "120", "155", "195"],
-        answer: "195"
-    },
-    {
         question: "Which country is the biggest in the world?",
         choices: ["Russia", "Vatican City", "Canada", "New Zealand"],
         answer: "Russia"
+    },
+    {
+        question: "Who was the first person to sail to America?",
+        choices: ["Abraham Lincoln", "George Washington", "Christopher Columbus", "Michael Jackson"],
+        answer: "Christopher Columbus"
     },
 ];
 const questionElement = document.getElementById("question");
