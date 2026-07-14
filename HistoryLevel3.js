@@ -1,34 +1,39 @@
 const questions = [
     {
-        question: "What is 415 + 753?",
-        choices: ["1168", "1268", "1368", "1468"],
-        answer: "1168"
+        question: "How many countries are there in the world?",
+        choices: ["100", "120", "155", "195"],
+        answer: "195"
     },
     {
-        question: "What is 927 - 418?",
-        choices: ["509", "511", "409", "539"],
-        answer: "509"
+        question: "Which continent has the most countries?",
+        choices: ["Asia", "Africa", "North America", "South America"],
+        answer: "Africa"
     },
     {
-        question: "What is 619 + 97?",
-        choices: ["716", "613", "714", "726"],
-        answer: "716"
+        question: "What did World War I start?",
+        choices: ["1914", "1902", "1956", "1950"],
+        answer: "1914"
     },
     {
-        question: "What is 114 - 98?",
-        choices: ["25", "16", "15", "22"],
-        answer: "16"
+        question: "When did World War II start?",
+        choices: ["1939", "1930", "1945", "2004"],
+        answer: "1939"
     },
     {
-        question: "What is 745 + 356?",
-        choices: ["1104", "1102", "1101", "1201"],
-        answer: "1101"
+        question: "When was the declaration of independence signed?",
+        choices: ["1776", "1789", "1812", "1865"],
+        answer: "1776"
     },
     {
-        question: "What is 845 - 598?",
-        choices: ["249", "251", "242", "247"],
-        answer: "247"
-    }
+        question: "What was the 50th state to join the United States?",
+        choices: ["Alaska", "Hawaii", "Washington", "Maine"],
+        answer: "Hawaii"
+    },
+    {
+        question: "What event happened in 1969 that was a major achievement in space exploration?",
+        choices: ["The first moon landing", "The Berlin Wall fell", "The first computer was invented", "The first airplane flew"],
+        answer: "The first moon landing"
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");

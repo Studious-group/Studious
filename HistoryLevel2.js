@@ -1,34 +1,29 @@
 const questions = [
     {
-        question: "What is 415 + 753?",
-        choices: ["1168", "1268", "1368", "1468"],
-        answer: "1168"
+        question: "Who did the United States declare independence from?",
+        choices: ["France", "Great Britain", "Spain", "Canada"],
+        answer: "Great Britain"
     },
     {
-        question: "What is 927 - 418?",
-        choices: ["509", "511", "409", "539"],
-        answer: "509"
+        question: "Who did Mexico declare independence from?",
+        choices: ["The United States of America", "France", "Spain", "Great Britain"],
+        answer: "Spain"
     },
     {
-        question: "What is 619 + 97?",
-        choices: ["716", "613", "714", "726"],
-        answer: "716"
+        question: "How many continents are there?",
+        choices: ["13", "10", "7", "3"],
+        answer: "7"
     },
     {
-        question: "What is 114 - 98?",
-        choices: ["25", "16", "15", "22"],
-        answer: "16"
+        question: "Which country is the biggest in the world?",
+        choices: ["Russia", "Vatican City", "Canada", "New Zealand"],
+        answer: "Russia"
     },
     {
-        question: "What is 745 + 356?",
-        choices: ["1104", "1102", "1101", "1201"],
-        answer: "1101"
+        question: "Who was the first person to sail to America?",
+        choices: ["Abraham Lincoln", "George Washington", "Christopher Columbus", "Michael Jackson"],
+        answer: "Christopher Columbus"
     },
-    {
-        question: "What is 845 - 598?",
-        choices: ["249", "251", "242", "247"],
-        answer: "247"
-    }
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
