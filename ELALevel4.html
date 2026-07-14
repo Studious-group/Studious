@@ -8,6 +8,7 @@
 <body>
 
 <div class="quiz-container">
+    <button id="backBtn" class="back-btn" type="button">← Back</button>
     <h1 id="question">Question</h1>
 
     <div id="answers">answers</div>
@@ -18,4 +19,16 @@
 </div>
 
 <script src="MathLevel2.js"></script>
+<script>
+    const backBtn = document.getElementById("backBtn");
+    if (backBtn) {
+        backBtn.addEventListener("click", () => {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = "ELA.html";
+            }
+        });
+    }
+</script>
 </body>

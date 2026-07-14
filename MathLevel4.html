@@ -8,9 +8,10 @@
 <body>
 
 <div class="quiz-container">
-    <h2 id="question">Question</h2>
+    <button id="backBtn" class="back-btn" type="button">← Back</button>
+    <h1 id="question">Question</h1>
 
-    <div id="answers"></div>
+    <div id="answers">answers</div>
 
     <button id="nextBtn">Random Question</button>
 
@@ -18,4 +19,16 @@
 </div>
 
 <script src="MathLevel4.js"></script>
+<script>
+    const backBtn = document.getElementById("backBtn");
+    if (backBtn) {
+        backBtn.addEventListener("click", () => {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = "Math.html";
+            }
+        });
+    }
+</script>
 </body>

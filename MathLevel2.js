@@ -55,6 +55,7 @@ const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
 const resultElement = document.getElementById("result");
 const nextBtn = document.getElementById("nextBtn");
+const backBtn = document.getElementById("backBtn");
 
 let currentQuestion;
 
@@ -103,5 +104,13 @@ function checkAnswer(button, selectedAnswer) {
 }
 
 nextBtn.addEventListener("click", loadRandomQuestion);
+
+backBtn.addEventListener("click", () => {
+    if (window.history.length > 1) {
+        window.history.back();
+    } else {
+        window.location.href = "Math.html";
+    }
+});
 
 loadRandomQuestion();

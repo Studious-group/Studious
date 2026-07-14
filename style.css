@@ -186,6 +186,18 @@ button:hover {
     background: #555;
 }
 
+.back-btn {
+    width: auto;
+    padding: 8px 14px;
+    margin: 0 0 16px 0;
+    background: #6c757d;
+    font-size: 14px;
+}
+
+.back-btn:hover {
+    background: #555;
+}
+
 #result {
     margin-top: 15px;
     font-weight: bold;
