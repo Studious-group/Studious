@@ -3,10 +3,12 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
+  
   padding-top: 0;
   background: #7ec8ff;
   font-family: Arial, sans-serif;
+  flex-direction: column;
 }
 
 .home-page {
@@ -120,15 +122,27 @@ h1 {
 }
 .card1 {
     background-color: green;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid black;
 }
 .card2 {
-    background-color: rgb(64, 64, 248);
+    background-color: blue;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid black;
 }
 .card3 {
     background-color: yellow;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid black;
 }
 .card4 {
     background-color: red;
+    text-align: center;
+    border-radius: 12px;
+    border: 3px solid black;
 }
 
 .history-cardcontainer {
@@ -136,6 +150,7 @@ h1 {
     border: 2px solid #333;
     padding: 1rem;
     border-radius: 12px;
+    text-align: center;
 }
 
 .english-cardcontainer {
@@ -143,15 +158,20 @@ h1 {
     border: 2px solid #333;
     padding: 1rem;
     border-radius: 12px;
+    text-align: center;
 }
 .quiz-container {
     background: white;
     padding: 30px;
     border-radius: 10px;
-    width: 400px;
+    width: min(92vw, 460px);
+    min-height: 330px;
+    box-sizing: border-box;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     text-align: center;
 }
+
+
 
 button {
     width: 100%;
@@ -190,4 +210,59 @@ button:hover {
     margin-top: 15px;
     font-weight: bold;
     font-size: 18px;
+}
+.Levelcard,
+.Levelcard:link,
+.Levelcard:visited,
+.Levelcard:hover,
+.Levelcard:active {
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    border-radius: 12px;
+    text-align: center;
+    width: 1200px;
+    min-height: 80px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+    text-decoration: none !important;
+    text-underline-offset: 0;
+    
+    font-weight: normal;
+}
+
+.Levelcard h3,
+.Levelcard h4,
+.Levelcard p {
+    margin: 0.2rem 0;
+    color: #111;
+}
+
+h4 {
+    text-align: center;
+    margin: 0 0 1.5rem 0;
+    width: 100%;
+    font-size: 40px;
+    color: black;
+    padding: 0.5rem;
+}
+h3 {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    font-size: 30px;
+    color: black;
+    padding: 0rem;
+}
+p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    padding: 0rem;
 }
