@@ -1,34 +1,35 @@
 const questions = [
     {
-        question: "What word is a synonym for 'happy'?",
-        choices: ["mad", "sad", "joyful", "angry"],
-        answer: "joyful"
-    },
-    {
         question: "In which U.S. state did the Gold Rush of 1849 occur?",
         choices: ["California", "New York", "Texas", "Indiana"],
         answer: "California"
     },
     {
-        question: "What is 619 + 97?",
-        choices: ["716", "613", "714", "726"],
-        answer: "716"
+        question: "Which event marked the beginning of the Great Depression in the United States?",
+        choices: ["The first moon landing", "The stock market crash of 1929", "The signing of the Treaty of Versailles", "The fall of the Berlin Wall"],
+        answer: "The stock market crash of 1929"
     },
     {
-        question: "What is 114 - 98?",
-        choices: ["25", "16", "15", "22"],
-        answer: "16"
+        question: "Which empire was ruled by Julius Caesar?",
+        choices: ["The Ottoman Empire", "The Roman Empire", "The Persian Empire", "The Byzantine Empire"],
+        answer: "The Roman Empire"
     },
     {
-        question: "What is 745 + 356?",
-        choices: ["1104", "1102", "1101", "1201"],
-        answer: "1101"
+        question: "What was the significance of the Magna Carta?",
+        choices: ["It ended the Hundred Years' War", "It limited the power of the English king", "It founded the Roman Empire", "It created the United Nations"],
+        answer: "It limited the power of the English king"
     },
     {
-        question: "What is 845 - 598?",
-        choices: ["249", "251", "242", "247"],
-        answer: "247"
-    }
+        question: "Who was the leader of the Soviet Union during most of the Cold War?",
+        choices: ["Mikhail Gorbachev", "Joseph Stalin", "Nikita Khrushchev", "Vladimir Lenin"],
+        answer: "Joseph Stalin"
+    },
+    {
+        question: "Which river was important to the development of ancient Egypt?",
+        choices: ["Nile", "Amazon", "Mississippi", "Danube"],
+        answer: "Nile"
+    },
+
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");

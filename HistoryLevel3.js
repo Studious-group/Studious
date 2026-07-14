@@ -29,7 +29,11 @@ const questions = [
         choices: ["Alaska", "Hawaii", "Washington", "Maine"],
         answer: "Hawaii"
     },
-
+    {
+        question: "What event happened in 1969 that was a major achievement in space exploration?",
+        choices: ["The first moon landing", "The Berlin Wall fell", "The first computer was invented", "The first airplane flew"],
+        answer: "The first moon landing"
+    },
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
