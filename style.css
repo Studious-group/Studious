@@ -114,6 +114,7 @@ h1 {
   text-decoration: none;
   border-radius: 16px;
   transition: transform 180ms ease, box-shadow 180ms ease;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
 }
 
 .button:hover {
@@ -125,24 +126,32 @@ h1 {
     text-align: center;
     border-radius: 12px;
     border: 3px solid black;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 .card2 {
     background-color: blue;
     text-align: center;
     border-radius: 12px;
     border: 3px solid black;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 .card3 {
     background-color: yellow;
     text-align: center;
     border-radius: 12px;
     border: 3px solid black;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 .card4 {
     background-color: red;
     text-align: center;
     border-radius: 12px;
     border: 3px solid black;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 .history-cardcontainer {
@@ -183,10 +192,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 button:hover {
     background: #0056b3;
+    box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
 }
 
 .correct {
@@ -200,10 +212,14 @@ button:hover {
 #nextBtn {
     margin-top: 20px;
     background: #6c757d;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 #nextBtn:hover {
     background: #555;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 .back-btn {
@@ -212,10 +228,14 @@ button:hover {
     margin: 0 0 16px 0;
     background: #6c757d;
     font-size: 14px;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 .back-btn:hover {
     background: #555;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 #result {
@@ -245,6 +265,8 @@ button:hover {
     text-underline-offset: 0;
     
     font-weight: normal;
+  box-shadow: 0 20px 22px rgba(0, 0, 0, 0.18);
+
 }
 
 .Levelcard h3,
