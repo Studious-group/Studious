@@ -300,12 +300,13 @@ p {
     color: black;
     padding: 0rem;
 }
-h5,h6,h7,h8 {
+h5,h6,h2,h4 {
     text-align: center;
     margin: 0 0 1rem 0;
     width: 100%;
     font-size: 60px;
     padding: 0.5rem;
+    font-weight: bold;
 }
 h5{
   color:red;
@@ -313,9 +314,9 @@ h5{
 h6{
   color:yellow;
 }
-h7{
+h2{
   color:blue;
 }
-h8{
+h4{
   color:green;
 }
