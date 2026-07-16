@@ -34,6 +34,106 @@ const questions = [
         choices: ["Neil Armstrong", "Buzz Aldrin", "John Glenn", "Yuri Gagarin"],
         answer: "Neil Armstrong"
     },
+     {
+        question: "Which state is known as the Sunshine State?",
+        choices: ["Texas", "Florida", "California", "Arizona"],
+        answer: "Florida"
+    },
+    {
+        question: "Which state is known as the Lone Star State?",
+        choices: ["Oklahoma", "Texas", "New Mexico", "Nevada"],
+        answer: "Texas"
+    },
+    {
+        question: "What is the name of the river that flows through the Grand Canyon?",
+        choices: ["Colorado River", "Mississippi River", "Ohio River", "Missouri River"],
+        answer: "Colorado River"
+    },
+    {
+        question: "Which country is directly east of the United States across the Atlantic Ocean?",
+        choices: ["China", "France", "Japan", "Mexico"],
+        answer: "France"
+    },
+    {
+        question: "Which country is famous for maple syrup?",
+        choices: ["Canada", "Brazil", "Spain", "Italy"],
+        answer: "Canada"
+    },
+    {
+        question: "Which monument has four U.S. presidents carved into a mountain?",
+        choices: ["Mount Rushmore", "Statue of Liberty", "Lincoln Memorial", "Washington Monument"],
+        answer: "Mount Rushmore"
+    },
+    {
+        question: "What do the stars on the U.S. flag represent?",
+        choices: ["The original colonies", "The states", "The presidents", "The capitals"],
+        answer: "The states"
+    },
+    {
+        question: "What do the stripes on the U.S. flag represent?",
+        choices: ["The 13 original colonies", "The 50 states", "The presidents", "The national parks"],
+        answer: "The 13 original colonies"
+    },
+    {
+        question: "Who was the first person to walk on the Moon?",
+        choices: ["Buzz Aldrin", "Neil Armstrong", "John Glenn", "Alan Shepard"],
+        answer: "Neil Armstrong"
+    },
+    {
+        question: "Which U.S. holiday honors people who have served in the military?",
+        choices: ["Veterans Day", "Thanksgiving", "Labor Day", "Earth Day"],
+        answer: "Veterans Day"
+    },
+    {
+        question: "Which country is famous for the Eiffel Tower?",
+        choices: ["Germany", "France", "England", "Belgium"],
+        answer: "France"
+    },
+    {
+        question: "Which country is famous for pizza?",
+        choices: ["Italy", "Mexico", "China", "Greece"],
+        answer: "Italy"
+    },
+    {
+        question: "Which continent is Antarctica on?",
+        choices: ["Europe", "South America", "Antarctica", "Asia"],
+        answer: "Antarctica"
+    },
+    {
+        question: "What is the tallest mountain in the United States?",
+        choices: ["Denali", "Mount Rainier", "Pikes Peak", "Mount Whitney"],
+        answer: "Denali"
+    },
+    {
+        question: "Which state is an island in the Pacific Ocean?",
+        choices: ["Florida", "Alaska", "Hawaii", "California"],
+        answer: "Hawaii"
+    },
+    {
+        question: "Which U.S. holiday is celebrated on the fourth Thursday of November?",
+        choices: ["Memorial Day", "Thanksgiving", "Independence Day", "Presidents' Day"],
+        answer: "Thanksgiving"
+    },
+    {
+        question: "What is the name of the famous bell in Philadelphia?",
+        choices: ["Liberty Bell", "Freedom Bell", "Victory Bell", "Independence Bell"],
+        answer: "Liberty Bell"
+    },
+    {
+        question: "Which state has the Grand Canyon?",
+        choices: ["Utah", "Nevada", "Arizona", "Colorado"],
+        answer: "Arizona"
+    },
+    {
+        question: "Which U.S. holiday honors Martin Luther King Jr.?",
+        choices: ["Presidents' Day", "Veterans Day", "Martin Luther King Jr. Day", "Labor Day"],
+        answer: "Martin Luther King Jr. Day"
+    },
+    {
+        question: "Which country is famous for the kangaroo?",
+        choices: ["New Zealand", "Australia", "South Africa", "India"],
+        answer: "Australia"
+    }
 ];
 const questionElement = document.getElementById("question");
 const answersElement = document.getElementById("answers");
