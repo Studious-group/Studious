@@ -300,3 +300,22 @@ p {
     color: black;
     padding: 0rem;
 }
+h5,h6,h7,h8 {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    width: 100%;
+    font-size: 60px;
+    padding: 0.5rem;
+}
+h5{
+  color:red;
+}
+h6{
+  color:yellow;
+}
+h7{
+  color:blue;
+}
+h8{
+  color:green;
+}
