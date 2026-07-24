@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Studious/style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <button id="backBtn" class="back-btn" type="button">← Back</button>
+    <h1 id="question">Question</h1>
+
+    <div id="answers">answers</div>
+
+    <button id="nextBtn">Next Question</button>
+
+    <p id="result"></p>
+</div>
+
+<script src="../ELA/ELALevel2.js"></script>
+<script>
+    const backBtn = document.getElementById("backBtn");
+    if (backBtn) {
+        backBtn.addEventListener("click", () => {
+            if (window.history.length > 1) {
+                window.history.back();
+            } else {
+                window.location.href = "../ELA/ELA.html";
+            }
+        });
+    }
+</script>
+</body>
